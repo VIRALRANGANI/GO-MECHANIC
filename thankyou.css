@@ -14,8 +14,8 @@
    .flow span{
        display: inline;
        	position: relative;
-	    animation: flow 4s infinite;
-        opacity:0;
+	    animation: flow 1s infinite;
+        opacity:1;
         
     }
     @keyframes flow  {55%{opacity:1;} 40%{opacity:0;}}
