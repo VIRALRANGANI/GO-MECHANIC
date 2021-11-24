@@ -22,6 +22,49 @@
      footer {
       background-image: linear-gradient(to right, #F7DFD2, #F7EDE9, #F7DFD2 );
      }
+       *{ 
+     
+     margin: 0;
+     padding: 0;
+ }
+ .header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(./image/home-screen.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ }
+ .nav{
+  display: flex;
+  padding: 2% 6%;s
+  justify-content: space-between;
+  align-items: center ;
+ }
+ .dropdown-item::after{
+     content: '';
+     width: 0%;
+     height: 3px;
+     background: #f44336;
+     display: block;
+     margin: auto;
+     transition: 0.5s;
+}
+.dropdown-item:hover::after{
+     width: 100%;
+}
+.nav-link::after{
+     content: '';
+     width: 0%;
+     height: 3px;
+     background: #f44336;
+     display: block;
+     margin: auto;
+     transition: 0.5s;
+}
+.nav-link:hover::after{
+     width: 100%;
+}
     </style>
   </head>
   <body>
